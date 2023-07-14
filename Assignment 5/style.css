@@ -1,0 +1,709 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@600&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #013d4d;
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+/* .logo {
+  float: left;
+  width: 40%;
+}
+.logo img {
+  margin-top: 0px;
+  margin-left: 23rem;
+  height: 45px;
+  width: 200px;
+} */
+
+.logo {
+  width: 12%;
+  line-height: 65px;
+  font-size: 30px;
+  color: #ffff;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  float: left;
+  margin-left: 15%;
+}
+
+
+.menu-bar {
+  width: 60%;
+  float: right;
+}
+
+.menu-bar a {
+  font-family:'Raleway';
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffff;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  border-radius: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-bar a:hover{
+  color: #fba069;
+  transition:0.5s;
+
+
+}
+
+.menu-bar li {
+  float: left;
+  width: 80px;
+  list-style: none;
+  line-height: 60px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  width: 90px;
+}
+
+/* <!-- here we start css of main content images and text  --> */
+
+.main-content {
+  width: 100%;
+  height: 20vh;
+}
+.upper-image img {
+  background-repeat: no-repeat;
+  background-repeat: round;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  position: fixed;
+  background-attachment: fixed;
+}
+.content-text {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+
+.content-text h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  text-align: center;
+  color: #fff;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+  font-weight: 2000;
+}
+
+.content-text p {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 10px;
+  color: rgb(226, 213, 213);
+  line-height: 50px;
+}
+
+/* <!-- here we start content 2 css structure  --> */
+
+.content2 {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  margin-top: 50%;
+  background-color: #ffff;
+}
+.we-do {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  color: #013d4d;
+}
+
+.we-do h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 30px;
+  line-height: 300px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texts {
+  width: 70%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+}
+.text1 {
+  width: 30%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 2px;
+  margin-top: 30px;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+  margin-left: 100px;
+}
+
+.text1 h3 {
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.text1 p {
+  text-align: justify;
+  text-align-last: center;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.text2 {
+  width: 30%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.text2 h3 {
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.text2 p {
+  text-align: justify;
+  text-align-last: center;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.text3 {
+  width: 30%;
+  height: 250px;
+  margin-top: 30px;
+
+  padding: 20px;
+  margin-left: 30px;
+}
+.text3 h3 {
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.text3 p {
+  text-align: justify;
+  text-align-last: center;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+/* <!-- here we start content row 3 with css structure  --> */
+
+.content3 {
+  width: 100%;
+  height: 110vh;
+  position: relative;
+  background-color: rgb(236, 234, 234);
+}
+.we-do {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  color: #083b50;
+}
+
+.we-do h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: -15px;
+  line-height: 300px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 10px;
+}
+
+.texts {
+  width: 70%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+}
+.t1 {
+  width: 30%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 2px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.img2 {
+  width: 330px;
+  height: 220px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.img2:hover {
+  transform: translateY(-6px);
+  cursor: pointer;
+  border: 2px solid #013d4d;
+}
+
+.t1 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.t1 p {
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.t2 {
+  width: 30%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.t2 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.t2 p {
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.t3 {
+  width: 30%;
+  height: 250px;
+  margin-top: 30px;
+
+  padding: 20px;
+  margin-left: 30px;
+}
+.t3 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.t3 p {
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+/* <!-- here we start content 4 row with css structure --> */
+
+.content4 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #fba069;
+}
+.we {
+  width: 100%;
+  height: 200px;
+  color: #fff;
+}
+
+.we h1 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 300px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texts {
+  width: 70%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+}
+.tt1 {
+  width: 30%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 2px;
+  margin-top: 30px;
+}
+
+.img3 {
+  width: 90px;
+  height: 85px;
+  margin-left: 6rem;
+  border-radius: 5px;
+}
+
+.tt1 h3 {
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.tt1 p {
+  text-align: justify;
+  text-align-last: center;
+  margin-top: 10px;
+  line-height: 20px;
+  color: #fff;
+}
+.tt2 {
+  width: 30%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.tt2 h3 {
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.tt2 p {
+  text-align: justify;
+  text-align-last: center;
+  margin-top: 10px;
+  line-height: 20px;
+  color: #fff;
+}
+.tt3 {
+  width: 30%;
+  height: 250px;
+  margin-top: 30px;
+
+  padding: 20px;
+  margin-left: 30px;
+}
+.tt3 h3 {
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.tt3 p {
+  text-align: justify;
+  text-align-last: center;
+  margin-top: 10px;
+  line-height: 20px;
+  color: #fff;
+}
+
+/* <!-- here wwe start content 6 row with css  --> */
+
+.content5 {
+  width: 100%;
+  height: 110vh;
+  position: relative;
+  background-color: rgb(236, 234, 234);
+}
+.wi {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  color: #013d4dd9;
+}
+
+.wi h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: -15px;
+  line-height: 300px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 10px;
+}
+
+.texts {
+  width: 70%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+}
+.ti1 {
+  width: 30%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 2px;
+  margin-top: 30px;
+}
+
+.img4 {
+  width: 200px;
+  height: 220px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.img4:hover {
+  transform: translateY(6px);
+  cursor: pointer;
+  border: 2px solid #013d4d;
+}
+
+.ti1 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.ti1 p {
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.ti2 {
+  width: 30%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.ti2 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.ti2 p {
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.ti3 {
+  width: 30%;
+  height: 250px;
+  margin-top: 30px;
+
+  padding: 20px;
+  margin-left: 30px;
+}
+.ti3 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.ti3 p {
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.ti4 {
+  width: 30%;
+  height: 250px;
+  margin-top: 30px;
+
+  padding: 20px;
+  margin-left: 30px;
+}
+.ti4 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #013d4dbe;
+}
+.ti4 p {
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+/* here we start footer section css  */
+
+.footer {
+  width: 100%;
+  height: 62vh;
+  /* max-height: 50vh; */
+  position: relative;
+  background-color: #013d4d;
+}
+
+.texts {
+  width: 70%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+}
+.ft1 {
+  width: 30%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.ft1 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #ed9154;
+}
+
+.ft1 p {
+  text-align: justify;
+  text-align-last: center;
+  margin-top: 10px;
+  line-height: 20px;
+  color: white;
+  line-height: 19px;
+}
+
+.ft2 {
+  width: 40%;
+  height: 250px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.ft2 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #ed9154;
+}
+.ft2 p {
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 10px;
+  color: white;
+  line-height: 30px;
+  font-family: 'Raleway';
+}
+.ft3 {
+  width: 30%;
+  height: 250px;
+  margin-top: 30px;
+
+  padding: 20px;
+  margin-left: 30px;
+}
+.ft3 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #ed9154;
+}
+.ft3 p {
+  text-align: justify;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 10px;
+  line-height: 20px;
+  color: white;
+  line-height: 25px;
+}
+.ft4 {
+  width: 30%;
+  height: 250px;
+  margin-top: 30px;
+
+  padding: 20px;
+  margin-left: 30px;
+}
+.ft4 h3 {
+  text-align: left;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #ed9154;
+}
+.ft4 p {
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 10px;
+  line-height: 20px;
+  color: white;
+  line-height: 30px;
+}
+
+.ft4 i {
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.cp-text {
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  background-color: #013d4d;
+  color: #fff;
+  cursor: pointer;
+  word-spacing: 1px;
+}
